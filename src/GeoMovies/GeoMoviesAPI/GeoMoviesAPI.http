@@ -1,0 +1,6 @@
+@GeoMoviesAPI_HostAddress = http://localhost:5209
+
+GET {{GeoMoviesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
