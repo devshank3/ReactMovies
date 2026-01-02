@@ -7,7 +7,25 @@
     <title>geomoviesclient</title>
   </head>
   <body>
+    <div id="example-html"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const exampleHtml = document.getElementById('example-html');
+
+      const render = () => {
+       
+          exampleHtml.innerHTML = `
+            <h3>Welcome to GeoMoviesClient!</h3>
+            <input type="text" placeholder="Type something..." />
+            <div>${new Date().toLocaleString()}</div>
+          `;
+        
+      }
+
+      render();
+
+      setInterval(render, 1000);
+    </script>
   </body>
 </html>
