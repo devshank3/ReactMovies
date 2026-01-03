@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.tsx'
 import RectPro from './rectpro.tsx'
 import Theproblem from './problem.tsx'
+import EventBut from './eventpro.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
     <RectPro />
     <Theproblem />
+    <EventBut />
   </StrictMode>,
 )
