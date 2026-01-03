@@ -1,3 +1,7 @@
 <Solution>
   <Project Path="GeoMoviesAPI/GeoMoviesAPI.csproj" />
+  <Project Path="GeoMoviesClient/geomoviesclient.esproj">
+    <Build />
+    <Deploy />
+  </Project>
 </Solution>
